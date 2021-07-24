@@ -3,6 +3,7 @@ Author: Gunnar Bowman
 Date: 07/23/2021
 Script to calculate the annual Sharpe Ratio of the S&P500
 Uses the 1 year Treasury constant maturity rate as risk-free return.
+Uses the fredapi (https://github.com/mortada/fredapi)
 '''
 
 from fredapi import Fred
